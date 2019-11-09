@@ -64,7 +64,7 @@
       <updated>1573221282832</updated>
       <workItem from="1573221284055" duration="24160000" />
       <workItem from="1573289719617" duration="42000" />
-      <workItem from="1573305816612" duration="8238000" />
+      <workItem from="1573305816612" duration="9492000" />
     </task>
     <servers />
   </component>
@@ -76,7 +76,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/menu.html</url>
-          <line>985</line>
+          <line>993</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -275,6 +275,18 @@ img {
     color: #a50015;
 }
 
+.path {
+    height: 40px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.path .active {
+    color: #ec0017 !important;
+}
+.path a:hover{
+  color: #ec0017;
+}
 
 /* ScrollUp */
 #scrollUp {
@@ -350,7 +362,7 @@ img {
 .header_area .header-meta {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
-  /*flex: 0 0 50%;*/
+    /*flex: 0 0 50%;*/
     overflow: auto;
 }
 
@@ -358,7 +370,8 @@ img {
     min-width: 60%;
     width: 60%;
 }
-.header_area .header-meta{
+
+.header_area .header-meta {
     min-width: 40%;
     width: 40%;
 }
