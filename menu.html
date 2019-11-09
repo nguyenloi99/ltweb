@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" href="imgs/core-img/favicon.ico">
+    <link rel="stylesheet" href="css/template/core-style.css">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/style.scss">
+    <link rel="stylesheet" href="css/maincontent.css">
+    <!--fotorama-->
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</head>
+<body>
+
+<header class="header_area">
+    <div class="sub-nav">
+       <span> <a href="">SIGN IN</a></span>
+        <span>/</span>
+       <span> <a href="">SIGN UP</a></span>
+    </div>
+    <div class="classy-nav-container breakpoint-off d-flex align-items-center justify-content-between">
+        <!-- Classy Menu -->
+        <nav class="classy-navbar" id="essenceNav">
+            <!-- Logo -->
+            <a class="nav-brand" href="index.html"><img src="imgs/core-img/logo.png" alt="" width="150&"></a>
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+                <span class="navbarToggler"><span></span><span></span><span></span></span>
+            </div>
+            <!-- Menu -->
+            <div class="classy-menu">
+                <!-- close btn -->
+                <div class="classycloseIcon">
+                    <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                </div>
+                <!-- Nav Start -->
+                <div class="classynav">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ADIDAS</a></li>
+                        <li><a href="#">NIKE</a></li>
+                        <li><a href="#">CONVERSE</a></li>
+                        <li><a href="#">OTHER</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="blog.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <!-- Nav End -->
+            </div>
+        </nav>
+
+        <!-- Header Meta Data -->
+        <div class="header-meta d-flex clearfix justify-content-end">
+            <!-- Search Area -->
+            <div class="search-area">
+                <form action="#" method="post">
+                    <input type="search" name="search" id="headerSearch" placeholder="Type for search">
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+            </div>
+            <!-- Favourite Area -->
+            <div class="favourite-area">
+                <a href="#"><img src="imgs/core-img/heart.svg" alt=""></a>
+            </div>
+            <!-- User Login Info -->
+            <div class="user-login-info">
+                <a href="#"><img src="imgs/core-img/user.svg" alt=""></a>
+            </div>
+            <!-- Cart Area -->
+            <div class="cart-area">
+                <a href="#" id="essenceCartBtn"><img src="imgs/core-img/bag.svg" alt=""><span>3</span></a>
+            </div>
+        </div>
+
+    </div>
+</header>
+<!-- Start main Content -->
+<div class="maincontent ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-12 md-mt-40 sm-mt-40">
+                <div class="shop__sidebar">
+                    <aside class="wedget__categories poroduct--cat">
+                        <h3 class="wedget__title">Product Categories</h3>
+                        <ul>
+                            <li><a href="#">Adidas <span>(130)</span></a></li>
+                            <li><a href="#">Nike <span>(89)</span></a></li>
+                            <li><a href="#">Converse <span>(65)</span></a></li>
+                            <li><a href="#">Vans <span>(100)</span></a></li>
+                            <li><a href="#">Other <span>(77)</span></a></li>
+                        </ul>
+                    </aside>
+                    <aside class="wedget__categories pro--range">
+                        <h3 class="wedget__title">Filter by price</h3>
+                        <div class="content-shopby">
+                            <div class="price_filter s-filter clear">
+                                <form action="#" method="GET">
+                                    <div id="slider-range"></div>
+                                    <div class="slider__range--output">
+                                        <div class="price__output--wrap">
+                                            <div class="price--output">
+                                                <span>Price :</span><input type="text" id="amount" readonly="">
+                                            </div>
+                                            <div class="price--filter">
+                                                <a href="#">Filter</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </aside>
+                    <aside class="wedget__categories poroduct--tag">
+                        <h3 class="wedget__title">Product Tags</h3>
+                        <ul>
+                            <li><a href="#">Sneaker</a></li>
+                            <li><a href="#">Nike</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="wedget__categories sidebar--banner">
+                        <img src="imgs/qc.jpg" alt="banner images">
+                        <div class="text">
+                            <h2>new products</h2>
+                            <h6>save up to <br> <strong>40%</strong>off</h6>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+            <div class="col-lg-9 col-12">
+                <div class="wn__single__product">
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div class="wn__fotorama__wrapper">
+                                <div class="fotorama wn__fotorama__action" data-nav="thumbs">
+                                    <a href="imgs/product/1.webp" target="_blank"><img src="imgs/product/1.PNG"
+                                                                                       alt=""></a>
+                                    <a href="imgs/product/2.webp" target="_blank"><img src="imgs/product/2.PNG"
+                                                                                       alt=""></a>
+                                    <a href="imgs/product/3.webp" target="_blank"><img src="imgs/product/3.PNG"
+                                                                                       alt=""></a>
+                                    <a href="imgs/product/4.webp" target="_blank"><img src="imgs/product/4.PNG"
+                                                                                       alt=""></a>
+                                    <a href="imgs/product/5.webp" target="_blank"><img src="imgs/product/5.PNG"
+                                                                                       alt=""></a>
+                                    <a href="imgs/product/1.webp" target="_blank"><img src="imgs/product/1.PNG"
+                                                                                       alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <div class="product__info__main">
+                                <h1>Nike Free Metcon 2 UT </h1>
+                                <div class="product-reviews-summary d-flex">
+                                    <ul class="rating-summary d-flex">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star-half-full"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="price-box">
+                                    <span>$152.00</span>
+                                </div>
+                                <div class="product__size">
+                                    <div class="input">
+                                        <input type="radio" name="size" value="37" id="size-37" checked/>
+                                        <label for="size-37">37</label>
+                                        <input type="radio" name="size" value="37" id="size-38"/>
+                                        <label for="size-38">38</label>
+                                        <input type="radio" name="size" value="37" id="size-39"/>
+                                        <label for="size-39">39</label>
+                                        <input type="radio" name="size" value="37" id="size-40"/>
+                                        <label for="size-40">40</label>
+                                        <input type="radio" name="size" value="37" id="size-41"/>
+                                        <label for="size-41">41</label>
+                                        <input type="radio" name="size" value="37" id="size-42"/>
+                                        <label for="size-42">42</label>
+
+                                    </div>
+                                </div>
+                                <div class="box-tocart d-flex">
+                                    <span>Qty</span>
+                                    <input id="qty" class="input-text qty" name="qty" min="1" value="1" title="Qty"
+                                           type="number">
+                                    <div class="addtocart__actions">
+                                        <button class="tocart" type="submit" title="Add to Cart">Add to Cart
+                                        </button>
+                                    </div>
+                                    <div class="product-addto-links clearfix">
+                                        <a class="wishlist" href="#"></a>
+                                    </div>
+                                </div>
+                                <div class="product_meta">
+											<span class="posted_in">Categories:
+												<a href="#">Nike</a>,
+												<a href="#">Man</a>
+											</span>
+                                </div>
+                                <div class="product-share">
+                                    <ul>
+                                        <li class="categories-title">Share :</li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i
+                                                    class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top"
+                                               title="Instagram"><i
+                                                    class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top"
+                                               title="Twitter"><i class="fa fa-twitter"
+                                                                  aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top"
+                                               title="Pinterest"><i
+                                                    class="fa fa-pinterest" aria-hidden="true"></i></a>
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__info__detailed">
+                    <div class="pro_details_nav nav justify-content-start" role="tablist">
+                        <a class="nav-item nav-link active" data-toggle="tab" href="#nav-details"
+                           role="tab">Details</a>
+                        <a class="nav-item nav-link" data-toggle="tab" href="#nav-review" role="tab">Reviews</a>
+                    </div>
+                    <div class="tab__container">
+                        <!-- Start Single Tab Content -->
+                        <div class="pro__tab_label tab-pane fade show active" id="nav-details" role="tabpanel">
+                            <div class="description__attribute">
+                                <p>The Nike Free Metcon 2 UT brings another layer of support to a broad range of
+                                    training exercises. Durable straps help hold down your foot, while flexible foam
+                                    keeps you moving naturally from weights to agility drills.
+                                </p>
+                                <ul>
+                                    <li>•Colour Shown: Beechtree/Velvet Brown/Kinetic Green/Total Orange</li>
+                                    <li>• Style: CI3800-283</li>
+                                    <li>• Machine wash/dry.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End Single Tab Content -->
+                        <!-- Start Single Tab Content -->
+                        <div class="pro__tab_label tab-pane fade" id="nav-review" role="tabpanel">
+                            <div class="review__attribute">
+                                <h1>Customer Reviews</h1>
+                                <h2>Hastech</h2>
+                                <div class="review__ratings__type d-flex">
+                                    <div class="review-ratings">
+                                        <div class="rating-summary d-flex">
+                                            <span>Quality</span>
+                                            <ul class="rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star-half-full"></i></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="rating-summary d-flex">
+                                            <span>Price</span>
+                                            <ul class="rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star-half-full"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                            </ul>
+                                        </div>
+                                        <div class="rating-summary d-flex">
+                                            <span>value</span>
+                                            <ul class="rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star-half-full"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="review-content">
+                                        <p>Thanh Loi</p>
+                                        <p>Review by ThanhLoi</p>
+                                        <p>Posted on 11/6/2018</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-fieldset">
+                                <h2>You're reviewing:</h2>
+                                <h3>Chaz Kangeroo Hoodie</h3>
+                                <div class="review-field-ratings">
+                                    <div class="product-review-table">
+                                        <div class="review-field-rating d-flex">
+                                            <span>Quality</span>
+                                            <ul class="rating d-flex">
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                            </ul>
+                                        </div>
+                                        <div class="review-field-rating d-flex">
+                                            <span>Price</span>
+                                            <ul class="rating d-flex">
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                            </ul>
+                                        </div>
+                                        <div class="review-field-rating d-flex">
+                                            <span>Value</span>
+                                            <ul class="rating d-flex">
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                                <li><i class="fa fa-star-o"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review_form_field">
+                                    <div class="input__box">
+                                        <span>Nickname</span>
+                                        <input id="nickname_field" type="text" name="nickname">
+                                    </div>
+                                    <div class="input__box">
+                                        <span>Summary</span>
+                                        <input id="summery_field" type="text" name="summery">
+                                    </div>
+                                    <div class="input__box">
+                                        <span>Review</span>
+                                        <textarea name="review"></textarea>
+                                    </div>
+                                    <div class="review-form-actions">
+                                        <button>Submit Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Tab Content -->
+                    </div>
+                </div>
+                <div class="wn__related__product pt--80 pb--50">
+                    <div class="section__title text-center">
+                        <h2 class="title__be--2">Related Products</h2>
+                    </div>
+                    <div class="row mt--60">
+                        <div class="productcategory__slide--2 arrows_style owl-carousel owl-theme">
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR1.PNG"
+                                            alt="product image"></a>
+                                    <a class="second__img animation1" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>
+                                    <div class="hot__box">
+                                        <span class="hot-label">BEST SALLER</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">robin parrish</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR1.PNG"
+                                            alt="product image"></a>
+                                    <a class="second__img animation1" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>
+                                    <div class="hot__box color--2">
+                                        <span class="hot-label">HOT</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">The Remainng</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR1.PNG"
+                                            alt="product image"></a>
+                                    <a class="second__img animation1" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>
+                                    <div class="hot__box">
+                                        <span class="hot-label">HOT</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">Lando</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$50.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR1.PNG"
+                                            alt="product image"></a>
+                                    <a class="second__img animation1" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>
+                                    <div class="hot__box">
+                                        <span class="hot-label">HOT</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">Doctor Wldo</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR1.PNG"
+                                            alt="product image"></a>
+                                    <a class="second__img animation1" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>
+                                    <div class="hot__box">
+                                        <span class="hot-label">BEST SALER</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center content--center">
+                                    <h4><a href="single-product.html">Animals Life</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$50.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR1.PNG"
+                                            alt="product image"></a>
+                                    <a class="second__img animation1" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>
+                                    <div class="hot__box">
+                                        <span class="hot-label">BEST SALER</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center content--center">
+                                    <h4><a href="single-product.html">Olio Madu</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$50.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                        </div>
+                    </div>
+                </div>
+                <div class="wn__related__product">
+                    <div class="section__title text-center">
+                        <h2 class="title__be--2">upsell products</h2>
+                    </div>
+                    <div class="row mt--60">
+                        <div class="productcategory__slide--2 arrows_style owl-carousel owl-theme">
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR1.PNG"
+                                            alt="product image"></a>
+                                    <a class="second__img animation1" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>
+                                    <div class="hot__box">
+                                        <span class="hot-label">BEST SALLER</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">robin parrish</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR1.PNG   "
+                                            alt="product image"></a>
+                                    <a class="second__img animation1" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>
+                                    <div class="hot__box color--2">
+                                        <span class="hot-label">HOT</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">The Remainng</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR1.PNG  "
+                                            alt="product image"></a>
+                                    <a class="second__img animation1" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>
+                                    <div class="hot__box">
+                                        <span class="hot-label">HOT</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">Lando</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$50.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR1.PNG  "
+                                            alt="product image"></a>
+                                    <a class="second__img animation1" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR2.PNG  " alt="product image"></a>
+                                    <div class="hot__box">
+                                        <span class="hot-label">HOT</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">Doctor Wldo</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR1.PNG"
+                                            alt="product image"></a>
+                                    <a class="second__img animation1" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>
+                                    <div class="hot__box">
+                                        <span class="hot-label">BEST SALER</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center content--center">
+                                    <h4><a href="single-product.html">Animals Life</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$50.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR1.PNG"
+                                            alt="product image"></a>
+                                    <a class="second__img animation1" href="single-product.html"><img
+                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>
+                                    <div class="hot__box">
+                                        <span class="hot-label">BEST SALER</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center content--center">
+                                    <h4><a href="single-product.html">Olio Madu</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$50.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- End main Content -->
+
+
+<!-- ##### Footer Area Start ##### -->
+<footer class="footer_area clearfix">
+    <div class="container">
+        <div class="row">
+            <!-- Single Widget Area -->
+            <div class="col-12 col-md-6">
+                <div class="single_widget_area d-flex mb-30">
+                    <!-- Logo -->
+                    <div class="footer-logo mr-50">
+                        <a href="#"><img src="imgs/core-img/logo2.png" width="130&" alt=""></a>
+                    </div>
+                    <!-- Footer Menu -->
+                    <div class="footer_menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Widget Area -->
+            <div class="col-12 col-md-6">
+                <div class="single_widget_area mb-30">
+                    <ul class="footer_widget_menu">
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">Shipping and Delivery</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-end">
+            <!-- Single Widget Area -->
+            <div class="col-12 col-md-6">
+                <div class="single_widget_area">
+                    <div class="footer_heading mb-30">
+                        <h6>Subscribe</h6>
+                    </div>
+                    <div class="subscribtion_form">
+                        <form action="#" method="post">
+                            <input type="email" name="mail" class="mail" placeholder="Your email here">
+                            <button type="submit" class="submit"><i class="fa fa-long-arrow-right"
+                                                                    aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Widget Area -->
+            <div class="col-12 col-md-6">
+                <div class="single_widget_area">
+                    <div class="footer_social_area">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i
+                                class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i
+                                class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"
+                                                                                                  aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i
+                                class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><i
+                                class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-12 text-center">
+                <p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                    All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                    BANANA Group</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+            </div>
+        </div>
+
+    </div>
+</footer>
+<!-- ##### Footer Area End ##### -->
+<!-- jQuery (Necessary for All JavaScript Plugins) -->
+<script src="js/jquery/jquery-2.2.4.min.js"></script>
+<!-- Popper js -->
+<script src="js/menu/popper.min.js"></script>
+<!-- Bootstrap js -->
+<script src="js/menu/bootstrap.min.js"></script>
+<!-- Plugins js -->
+<script src="js/menu/plugins.js"></script>
+<!-- Classy Nav js -->
+<script src="js/menu/classy-nav.min.js"></script>
+<!-- Active js -->
+<script src="js/menu/active.js"></script>
+<script src="js/detail-page/price.js"></script>
+</body>
+</html>

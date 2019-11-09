@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce01f45e-303d-4f84-b4e7-01099df780bb" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TKuoRrn6kyAQFJ4pAs7Rfb3NJh" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/a" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Thanh Loi\WebstormProjects\ProjectWeb\a" />
+      <recent name="C:\Users\Thanh Loi\WebstormProjects\ProjectWeb\imgs\icons" />
+      <recent name="C:\Users\Thanh Loi\WebstormProjects\ProjectWeb\imgs\product" />
+      <recent name="C:\Users\Thanh Loi\WebstormProjects\ProjectWeb\css" />
+      <recent name="C:\Users\Thanh Loi\WebstormProjects\ProjectWeb\imgs\icon" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Thanh Loi\WebstormProjects\ProjectWeb" />
+      <recent name="C:\Users\Thanh Loi\WebstormProjects\ProjectWeb\js\contact" />
+      <recent name="C:\Users\Thanh Loi\WebstormProjects\ProjectWeb\imgs\contact" />
+      <recent name="C:\Users\Thanh Loi\WebstormProjects\ProjectWeb\css\contact" />
+      <recent name="C:\Users\Thanh Loi\WebstormProjects\ProjectWeb\js\detail-page" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce01f45e-303d-4f84-b4e7-01099df780bb" name="Default Changelist" comment="" />
+      <created>1573221282832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573221282832</updated>
+      <workItem from="1573221284055" duration="24160000" />
+      <workItem from="1573289719617" duration="42000" />
+      <workItem from="1573305816612" duration="8238000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/menu.html</url>
+          <line>985</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
