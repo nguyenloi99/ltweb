@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" href="imgs/core-img/favicon.ico">
+    <link rel="stylesheet" href="css/template/core-style.css">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/style.scss">
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/contact/util.css">
+    <link rel="stylesheet" type="text/css" href="css/contact/main.css">
+    <link rel="stylesheet" href="css/maincontent.css">
+    <!--===============================================================================================-->
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+
+    <!--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
+    <!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+
+
+</head>
+<body>
+<header class="header_area">
+    <div class="sub-nav">
+        <span> <a href="">SIGN IN</a></span>
+        <span>/</span>
+        <span> <a href="">SIGN UP</a></span>
+    </div>
+    <div class="classy-nav-container breakpoint-off d-flex align-items-center justify-content-between">
+        <!-- Classy Menu -->
+        <nav class="classy-navbar" id="essenceNav">
+            <!-- Logo -->
+            <a class="nav-brand" href="index.html"><img src="imgs/core-img/logo.png" alt="" width="150&"></a>
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+                <span class="navbarToggler"><span></span><span></span><span></span></span>
+            </div>
+            <!-- Menu -->
+            <div class="classy-menu">
+                <!-- close btn -->
+                <div class="classycloseIcon">
+                    <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                </div>
+                <!-- Nav Start -->
+                <div class="classynav">
+                    <ul>
+                        <li><a href="menu.html">HOME</a></li>
+                        <li><a href="#">ADIDAS</a></li>
+                        <li><a href="#">NIKE</a></li>
+                        <li><a href="#">CONVERSE</a></li>
+                        <li><a href="#">OTHER</a></li>
+                        <li><a href="contact.html" class="active">CONTACT</a></li>
+                        <li><a href="blog.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <!-- Nav End -->
+            </div>
+        </nav>
+
+        <!-- Header Meta Data -->
+        <div class="header-meta d-flex clearfix justify-content-end">
+            <!-- Search Area -->
+            <div class="search-area">
+                <form action="#" method="post">
+                    <input type="search" name="search" id="headerSearch" placeholder="Type for search">
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+            </div>
+            <!-- Favourite Area -->
+            <div class="favourite-area">
+                <a href="#"><img src="imgs/core-img/heart.svg" alt=""></a>
+            </div>
+            <!-- User Login Info -->
+            <div class="user-login-info">
+                <a href="#"><img src="imgs/core-img/user.svg" alt=""></a>
+            </div>
+            <!-- Cart Area -->
+            <div class="cart-area">
+                <a href="#" id="essenceCartBtn"><img src="imgs/core-img/bag.svg" alt=""><span>3</span></a>
+            </div>
+        </div>
+
+    </div>
+</header>
+<!-- Start main Content -->
+<div class="container-fluid">
+    <div id="bs4-slide-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#bs4-slide-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#bs4-slide-carousel" data-slide-to="1"></li>
+            <li data-target="#bs4-slide-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-inline w-100" src="imgs/slide-show/1.jpg" alt="Slide One">
+                <!--Captions for the slides go here -->
+                <div class="carousel-caption text-success d-none d-sm-block">
+                    <h5>A pair of shoes can change your life</h5>
+                    <p class="text-light">Welcome to BANANA SHOP
+                        <button class="btn btn-outline-primary btn-lg t">More info</button>
+                    </p>
+                </div>
+                <!--Captions ending here for slide 1-->
+            </div>
+            <div class="carousel-item">
+                <img class="d-inline w-100" src="imgs/slide-show/2.jpg" alt="Slide Two">
+                <!--Captions for the slides go here -->
+                <div class="carousel-caption text-white d-none d-sm-block">
+                    <h5>Bring your dreams to your feet to make that dream come true</h5>
+                    <p class="text-light">Welcome to BANANA SHOP
+                        <button class="btn btn-primary btn-lg">More info</button>
+                    </p>
+
+                </div>
+                <!--Captions ending here for slide 2-->
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imgs/slide-show/3.jpg" alt="Slide Three">
+                <!--Captions for the slides go here -->
+                <div class="carousel-caption text-warning d-none d-sm-block">
+                    <h5>Give the right shoes to the girl, and she will conquer the world</h5>
+                    <p class="text-light">Welcome to BANANA SHOP
+                        <button class="btn btn-outline-warning btn-lg">More info</button>
+                    </p>
+                </div>
+                <!--Captions ending here for slide 3-->
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#bs4-slide-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#bs4-slide-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<div class="newproduct">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-12">
+                <div class="wn__related__product pt--80 pb--50">
+                    <div class="section__title text-center">
+                        <h2 class="title__be--2">New Products</h2>
+                    </div>
+                    <div class="row mt--60">
+                        <div class="productcategory__slide--2 arrows_style owl-carousel owl-theme">
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/boss-boss-mens-titanium-knit-running-style-trainers-black.jpg"
+                                            alt="product image"></a>
+<!--                                    <a class="second__img animation1" href="single-product.html"><img-->
+<!--                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>-->
+                                    <div class="hot__box">
+                                        <span class="hot-label">NEW</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">Boss Man</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/burberry-vintage-check-cotton-and-nubuck-arthur-sneakers.jpg"
+                                            alt="product image"></a>
+<!--                                    <a class="second__img animation1" href="single-product.html"><img-->
+<!--                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>-->
+                                    <div class="hot__box">
+                                        <span class="hot-label">NEW</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">Burberry</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/clarks-mens-tri-solar-nubuck-trainers-navy.jpg"
+                                            alt="product image"></a>
+<!--                                    <a class="second__img animation1" href="single-product.html"><img-->
+<!--                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>-->
+                                    <div class="hot__box">
+                                        <span class="hot-label">NEW</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">Clarks Mens</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$50.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/clarks-originals-mens-trigenic-leather-trainers-white.jpg"
+                                            alt="product image"></a>
+<!--                                    <a class="second__img animation1" href="single-product.html"><img-->
+<!--                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>-->
+                                    <div class="hot__box">
+                                        <span class="hot-label">NEW</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">Clarks Original</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/converse-chuck-taylor-all-star-70-ox-trainers-black.jpg"
+                                            alt="product image"></a>
+<!--                                    <a class="second__img animation1" href="single-product.html"><img-->
+<!--                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>-->
+                                    <div class="hot__box">
+                                        <span class="hot-label">NEW</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center content--center">
+                                    <h4><a href="single-product.html">Converse</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$50.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/converse-mens-chuck-taylor-all-star-leather-hi-top-trainers-black-white-black.jpg"
+                                            alt="product image"></a>
+<!--                                    <a class="second__img animation1" href="single-product.html"><img-->
+<!--                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>-->
+                                    <div class="hot__box">
+                                        <span class="hot-label">NEW</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center content--center">
+                                    <h4><a href="single-product.html">Converse</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$50.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="hotproduct">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-12">
+                <div class="wn__related__product pt--80 pb--50">
+                    <div class="section__title text-center">
+                        <h2 class="title__be--2">Hot Products</h2>
+                    </div>
+                    <div class="row mt--60">
+                        <div class="productcategory__slide--2 arrows_style owl-carousel owl-theme">
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/veja-mens-v-12-b-mesh-trainers-white-black.jpg"
+                                            alt="product image"></a>
+                                    <!--                                    <a class="second__img animation1" href="single-product.html"><img-->
+                                    <!--                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>-->
+                                    <div class="hot__box">
+                                        <span class="hot-label">HOT</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">Boss Man</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/tommy-hilfiger-mens-fashion-mix-chunky-trainers-white.jpg"
+                                            alt="product image"></a>
+                                    <!--                                    <a class="second__img animation1" href="single-product.html"><img-->
+                                    <!--                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>-->
+                                    <div class="hot__box">
+                                        <span class="hot-label">HOT</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">Burberry</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/polo-ralph-lauren-mens-hanford-suede-trainers-newport-navy.jpg"
+                                            alt="product image"></a>
+                                    <!--                                    <a class="second__img animation1" href="single-product.html"><img-->
+                                    <!--                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>-->
+                                    <div class="hot__box">
+                                        <span class="hot-label">HOT</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">Clarks Mens</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$50.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/hugo-hugo-mens-hybrid-running-style-trainers-grey.jpg"
+                                            alt="product image"></a>
+                                    <!--                                    <a class="second__img animation1" href="single-product.html"><img-->
+                                    <!--                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>-->
+                                    <div class="hot__box">
+                                        <span class="hot-label">HOT</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center">
+                                    <h4><a href="single-product.html">Clarks Original</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$35.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/fila-fila-mens-disruptor-3-premium-trainers-white.jpg"
+                                            alt="product image"></a>
+                                    <!--                                    <a class="second__img animation1" href="single-product.html"><img-->
+                                    <!--                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>-->
+                                    <div class="hot__box">
+                                        <span class="hot-label">HOT</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center content--center">
+                                    <h4><a href="single-product.html">Converse</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$50.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                            <!-- Start Single Product -->
+                            <div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="product__thumb">
+                                    <a class="first__img" href="single-product.html"><img
+                                            src="imgs/product/converse-mens-chuck-taylor-all-star-leather-hi-top-trainers-black-white-black.jpg"
+                                            alt="product image"></a>
+                                    <!--                                    <a class="second__img animation1" href="single-product.html"><img-->
+                                    <!--                                            src="imgs/product/NIKE-AIR2.PNG" alt="product image"></a>-->
+                                    <div class="hot__box">
+                                        <span class="hot-label">HOT</span>
+                                    </div>
+                                </div>
+                                <div class="product__content content--center content--center">
+                                    <h4><a href="single-product.html">Converse</a></h4>
+                                    <ul class="prize d-flex">
+                                        <li>$50.00</li>
+                                        <li class="old_prize">$35.00</li>
+                                    </ul>
+                                    <div class="action">
+                                        <div class="actions_inner">
+                                            <ul class="add_to_links">
+                                                <li><a class="cart" href="cart.html"><i
+                                                        class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a class="wishlist" href="wishlist.html"><i
+                                                        class="fa fa-plus"></i></a></li>
+                                                <li><a class="compare" href="#"><i class="fa fa-heart-o"></i></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product__hover--content">
+                                        <ul class="rating d-flex">
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li class="on"><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Product -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="dropDownSelect1"></div>
+<!-- End main Content -->
+
+
+<!-- ##### Footer Area Start ##### -->
+<footer class="footer_area clearfix">
+    <div class="container">
+        <div class="row">
+            <!-- Single Widget Area -->
+            <div class="col-12 col-md-6">
+                <div class="single_widget_area d-flex mb-30">
+                    <!-- Logo -->
+                    <div class="footer-logo mr-50">
+                        <a href="#"><img src="imgs/core-img/logo2.png" width="130&" alt=""></a>
+                    </div>
+                    <!-- Footer Menu -->
+                    <div class="footer_menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Widget Area -->
+            <div class="col-12 col-md-6">
+                <div class="single_widget_area mb-30">
+                    <ul class="footer_widget_menu">
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">Shipping and Delivery</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-end">
+            <!-- Single Widget Area -->
+            <div class="col-12 col-md-6">
+                <div class="single_widget_area">
+                    <div class="footer_heading mb-30">
+                        <h6>Subscribe</h6>
+                    </div>
+                    <div class="subscribtion_form">
+                        <form action="#" method="post">
+                            <input type="email" name="mail" class="mail" placeholder="Your email here">
+                            <button type="submit" class="submit"><i class="fa fa-long-arrow-right"
+                                                                    aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Widget Area -->
+            <div class="col-12 col-md-6">
+                <div class="single_widget_area">
+                    <div class="footer_social_area">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i
+                                class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i
+                                class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"
+                                                                                                  aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i
+                                class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><i
+                                class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-12 text-center">
+                <p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                    All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                    BANANA Group</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+            </div>
+        </div>
+
+    </div>
+</footer>
+<!-- ##### Footer Area End ##### -->
+
+
+<!--===============================================================================================-->
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/bootstrap/js/popper.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/select2/select2.min.js"></script>
+<script>
+    $(".selection-2").select2({
+        minimumResultsForSearch: 20,
+        dropdownParent: $('#dropDownSelect1')
+    });
+</script>
+<!--===============================================================================================-->
+<script src="vendor/daterangepicker/moment.min.js"></script>
+<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+<script src="js/contact/main.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+</script>
+<script>
+    $('#bs4-slide-carousel').carousel({
+        interval: 3000
+    })
+</script>
+<!-- jQuery (Necessary for All JavaScript Plugins) -->
+<script src="js/jquery/jquery-2.2.4.min.js"></script>
+<!-- Popper js -->
+<script src="js/menu/popper.min.js"></script>
+<!-- Bootstrap js -->
+<script src="js/menu/bootstrap.min.js"></script>
+<!-- Plugins js -->
+<script src="js/menu/plugins.js"></script>
+<!-- Classy Nav js -->
+<script src="js/menu/classy-nav.min.js"></script>
+<!-- Active js -->
+<script src="js/menu/active.js"></script>
+<script src="js/detail-page/price.js"></script>
+</body>
+</html>
